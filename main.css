@@ -14,10 +14,59 @@ body {
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  text-align: center;
+  border: 1px solid lightblue;
   height: 900px;
+}
+p {
+  text-align: center;
 }
 h2 {
   text-align: center;
+  padding: 10px;
+  border: 1px solid lightblue;
+
+  font-family: "Bebas Neue", cursive;
+}
+section {
+  padding: 10px;
+}
+.item-desription {
+  text-align: justify;
+  padding: 16px;
+  margin: 0px;
+  font-family: "Rajdhani", sans-serif;
+}
+.availability {
+  margin: 0px;
+  background-color: gray;
+  color: yellow;
+  font-family: "Akshar", sans-serif;
+}
+.card-body {
+  padding: 0px;
+  height: 600px;
+}
+.specs {
+  margin: 0px;
+  font-weight: bold;
+}
+li {
+  list-style: none;
+  font-weight: bolder;
+}
+header {
+  font-family: "Akshar", sans-serif;
+}
+footer {
+  font-size: 10px;
+  text-align: center;
+}
+.pontiac {
+  filter: hue-rotate(320deg);
+}
+.gold-potato {
+  filter: contrast(150%);
+}
+.sweet-potato {
+  filter: brightness(50%);
 }
